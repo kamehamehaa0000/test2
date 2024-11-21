@@ -12,7 +12,7 @@ const InputForm = ({ setResponse }) => {
       const jsonInput = JSON.parse(input)
       console.log(jsonInput)
       const response = await axios.post(
-        'https://test1-swx6.onrender.com/api',
+        'https://test1-swx6.onrender.com/bfhl',
         jsonInput
       )
       setResponse(response.data)
